@@ -1,0 +1,39 @@
+/* .title {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    background-color: beige;
+}
+
+.nav-links {
+  display: flex; 
+  gap: 20px;  
+  justify-content: center;
+} */
+  
+.navbar {
+  display: flex;             /* Enables Flexbox */
+  justify-content: space-between; /* Pushes items to left & right */
+  align-items: center;       /* Centers items vertically */
+  padding: 15px 150px;        /* Adds spacing */
+  color: white;              /* Text color */
+  margin: 0 auto;              /* ✅ Centers the navbar */
+  background-color: black;
+}
+
+.nav-links {
+  display: flex;      
+  justify-content: right;       /* Enables Flexbox */
+  gap: 20px;                 /* Adds space between items */
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+}
+
+  
+  
+  
